@@ -1,0 +1,26 @@
+% Movie facts (M, Y)
+
+movie(american_beauty, 1999).
+movie(the_big_lebowski, 1998).
+movie(o_brother_where_art_thou, 2000).
+movie(lost_in_transition, 2003).
+movie(her, 2013).
+
+% Actor facts (M, A, R)
+
+actor(american_beauty, kevin_spacey, male).
+actor(the_big_lebowski, john_godman, male).
+actor(o_brother_where_art_thou, jeff_bridges, male).
+actor(her, joaquin_phoenix, male).
+
+% Actress facts (Title, A, R)
+
+actress(lost_in_transition, scarlett_johnsson, female).
+actress(american_beauty, annette_bening, female).
+actress(movie_2, scarlett_johnsson, female).
+
+% Director facts (Title, D)
+
+director(american_beauty, sam_mendes).
+director(the_big_lebowski, coen_brothers).
+director(lost_in_transition, sofia_coppola).
